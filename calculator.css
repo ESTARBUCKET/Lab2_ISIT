@@ -1,0 +1,106 @@
+    .my-btn { /*Один HTML-элемент может принадлежать сразу к нескольким классам. Имя такого селектора начинается с точки.*/
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 50 px;
+    height: 50 px;
+    border: none;
+    background: #515151;
+    color: black;
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+    user-select: none;
+}
+
+.other-elems {
+    width: fit-content;
+    margin-left: 5 px;
+    margin-bottom: 10px;
+    border-color: #515151;
+    padding: 5px;
+    background: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+
+    user-select: none;
+}
+
+.my-btn:hover {
+    background: rgb(103, 183, 103);
+}
+
+.my-btn:active {
+    filter: brightness(130%);
+}
+
+.other-elems:hover {
+    background: yellowgreen;
+}
+
+.my-btn.nightmode {
+    background-color: aquamarine;
+    width: 100 px;
+    height: 100 px;
+}
+
+.my-btn.nightmode:active {
+    background-color: rgb(40, 113, 107);
+}
+
+.my-btn.primary {
+    background-color: rgb(40, 113, 107);
+}
+
+.my-btn.secondary {
+    background-color: grey;
+}
+
+.my-btn.execute { 
+    width: 100px;
+    border-radius: 34px;
+    background-color: palevioletred;
+}
+
+.result {
+    width: 300px;
+    height: 70px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    background: white url("https://usagif.com/wp-content/uploads/gifs/fire-15.gif") no-repeat center;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.madeby {
+    width: fit-content;
+    margin-left: 80px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    /*background-color: darkcyan;*/
+    background-image: url("https://menstois.ru/wp-content/uploads/2023/10/6488219818236535243699.jpg");
+    background-repeat: no-repeat;
+    vertical-align: middle;    
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
